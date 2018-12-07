@@ -1,0 +1,20 @@
+{
+  "name": "Photos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write \"./**/*.{js,jsx,json,css,md}\"",
+    "start": "babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "sharp": "^0.21.0"
+  }
+}
